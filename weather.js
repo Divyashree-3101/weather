@@ -1,10 +1,11 @@
-const apiKey = 'e177466e572d4138bb208c558e2a654b'; 
 const getWeatherButton = document.getElementById('getWeather');
 const getLocationWeatherButton = document.getElementById('getLocationWeather');
 const weatherInfoDiv = document.getElementById('weatherInfo');
 const forecastDiv = document.getElementById('forecast');
 const toggleThemeButton = document.getElementById('toggleTheme');
 const body = document.body;
+
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
 
 getWeatherButton.addEventListener('click', getWeather);
 getLocationWeatherButton.addEventListener('click', getCurrentLocationWeather);
