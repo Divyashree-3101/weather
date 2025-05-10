@@ -1,7 +1,6 @@
 ## Weather App
 A simple and responsive weather application that allows users to search for any city and get current weather information including temperature, humidity, wind speed, and weather description.
-The UI is clean, mobile-friendly, and features dynamic icons and background based on weather conditions.
-
+The UI is clean, mobile-friendly, and displays five day forecast.
 ## Live Demo
 https://d-weather-website.netlify.app/
 
